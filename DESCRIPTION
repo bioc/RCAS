@@ -1,8 +1,8 @@
 Package: RCAS
 Type: Package
 Title: RNA Centric Annotation System
-Version: 1.29.3
-Date: 2021-11-21
+Version: 1.29.4
+Date: 2024-03-19
 Authors@R: c(person("Bora", "Uyar", email='bora.uyar@mdc-berlin.de', role=c("aut", "cre")),
               person("Dilmurat", "Yusuf", role=c("aut")),
               person("Ricardo", "Wurmus", role=c("aut")),
@@ -33,6 +33,7 @@ Imports:
     Biostrings,
     rtracklayer,
     GenomicFeatures,
+    txdbmaker,
     rmarkdown (>= 0.9.5),
     genomation (>= 1.5.5),
     knitr (>= 1.12.3),
@@ -49,7 +50,7 @@ Imports:
     utils, 
     ranger,
     gprofiler2
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.1
 Suggests: testthat,
     covr,
     BiocManager

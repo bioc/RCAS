@@ -26,7 +26,7 @@ end coverage profiles of given transcript features.
 \examples{
 data(queryRegions)
 data(gff)
-txdb <- GenomicFeatures::makeTxDbFromGRanges(gff)
+txdb <- txdbmaker::makeTxDbFromGRanges(gff)
 transcriptCoords <- GenomicFeatures::transcripts(txdb)
 cvgF <- getFeatureBoundaryCoverage (queryRegions = queryRegions,
                                     featureCoords = transcriptCoords,

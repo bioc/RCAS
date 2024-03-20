@@ -112,7 +112,7 @@ GTF files contain some annotation features (e.g. exons, transcripts) that are
 usually explicitly defined, however, some transcript features such as introns,
 exon-intron boundaries, promoter regions are only implicitly defined. Such 
 implicit features can be extracted from a GTF file using makeTxDb family of 
-functions from the GenomicFeatures library.
+functions from the txdbmaker library.
 
 First we create a list of GRanges objects, where each list element contains all
 the available coordinates of transcript features such as transcripts, exons, introns,
